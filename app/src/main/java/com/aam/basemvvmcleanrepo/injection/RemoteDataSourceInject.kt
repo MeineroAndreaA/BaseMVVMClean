@@ -2,7 +2,7 @@ package com.aam.basemvvmcleanrepo.injection
 
 import com.aam.basemvvmcleanrepo.data.core.Api
 import com.aam.basemvvmcleanrepo.data.core.RetrofitModule
-import com.aam.basemvvmcleanrepo.domain.remote.RemoteDataSource
+import com.aam.basemvvmcleanrepo.data.remote.RemoteDataSource
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

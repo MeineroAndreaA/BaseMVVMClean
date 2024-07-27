@@ -1,6 +1,6 @@
 package com.aam.basemvvmcleanrepo.data.core
 
-import com.aam.basemvvmcleanrepo.data.model.response.ResponseMock
+import com.aam.basemvvmcleanrepo.domain.model.remote.response.ResponseMock
 import retrofit2.Response
 import retrofit2.http.GET
 

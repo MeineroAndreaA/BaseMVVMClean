@@ -3,7 +3,7 @@ package com.aam.basemvvmcleanrepo.injection
 import android.content.Context
 import androidx.room.Room
 import com.aam.basemvvmcleanrepo.data.core.RoomDB
-import com.aam.basemvvmcleanrepo.data.model.dao.Dao
+import com.aam.basemvvmcleanrepo.domain.model.local.dao.Dao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
