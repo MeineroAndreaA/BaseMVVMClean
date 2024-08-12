@@ -1,8 +1,8 @@
-package com.aam.basemvvmcleanrepo.injection
+package com.aam.basemvvmcleanrepo.di
 
-import com.aam.basemvvmcleanrepo.data.core.Api
+import com.aam.basemvvmcleanrepo.data.remote.network.Api
 import com.aam.basemvvmcleanrepo.data.core.RetrofitModule
-import com.aam.basemvvmcleanrepo.data.remote.RemoteDataSource
+import com.aam.basemvvmcleanrepo.data.remote.network.RemoteRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -22,8 +22,8 @@ object RemoteDataSourceInject {
 
     @Provides
     @Singleton
-    fun provideRemoteDataSourceInstance(api: Api): RemoteDataSource {
-        return RemoteDataSource(api)
+    fun provideRemoteDataSourceInstance(api: Api): RemoteRepository {
+        return RemoteRepository(api)
     }
 
 }

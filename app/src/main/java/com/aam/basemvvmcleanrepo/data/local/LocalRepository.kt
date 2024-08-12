@@ -1,6 +1,6 @@
 package com.aam.basemvvmcleanrepo.data.local
 
-import com.aam.basemvvmcleanrepo.domain.model.local.entity.Entity
+import com.aam.basemvvmcleanrepo.data.local.entity.Entity
 
 interface LocalRepository {
 

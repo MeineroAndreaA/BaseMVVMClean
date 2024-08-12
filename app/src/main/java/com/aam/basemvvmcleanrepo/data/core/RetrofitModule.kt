@@ -1,6 +1,7 @@
 package com.aam.basemvvmcleanrepo.data.core
 
 import com.aam.basemvvmcleanrepo.BuildConfig
+import com.aam.basemvvmcleanrepo.data.remote.network.Api
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

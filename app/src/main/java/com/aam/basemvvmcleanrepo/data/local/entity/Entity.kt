@@ -1,4 +1,4 @@
-package com.aam.basemvvmcleanrepo.domain.model.local.entity
+package com.aam.basemvvmcleanrepo.data.local.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -1,9 +1,9 @@
-package com.aam.basemvvmcleanrepo.data.remote
+package com.aam.basemvvmcleanrepo.data.remote.network
 
 import retrofit2.HttpException
 import retrofit2.Response
 
-interface RemoteRepository {
+interface ApiServiceHandler {
 
     suspend fun <T : Any> handleApi(execute: suspend () -> Response<T>): ApiCallResult<T> {
         try {

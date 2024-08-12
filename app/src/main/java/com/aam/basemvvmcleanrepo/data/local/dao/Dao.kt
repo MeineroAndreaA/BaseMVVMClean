@@ -1,10 +1,10 @@
-package com.aam.basemvvmcleanrepo.domain.model.local.dao
+package com.aam.basemvvmcleanrepo.data.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.aam.basemvvmcleanrepo.domain.model.local.entity.Entity
+import com.aam.basemvvmcleanrepo.data.local.entity.Entity
 
 @Dao
 interface Dao {

@@ -1,7 +1,7 @@
 package com.aam.basemvvmcleanrepo.data.local
 
-import com.aam.basemvvmcleanrepo.domain.model.local.dao.Dao
-import com.aam.basemvvmcleanrepo.domain.model.local.entity.Entity
+import com.aam.basemvvmcleanrepo.data.local.dao.Dao
+import com.aam.basemvvmcleanrepo.data.local.entity.Entity
 import javax.inject.Inject
 
 class LocalDataSource @Inject constructor(private val dao: Dao) : LocalRepository {

@@ -1,9 +1,9 @@
-package com.aam.basemvvmcleanrepo.injection
+package com.aam.basemvvmcleanrepo.di
 
 import android.content.Context
 import androidx.room.Room
-import com.aam.basemvvmcleanrepo.data.core.RoomDB
-import com.aam.basemvvmcleanrepo.domain.model.local.dao.Dao
+import com.aam.basemvvmcleanrepo.data.local.RoomDB
+import com.aam.basemvvmcleanrepo.data.local.dao.Dao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

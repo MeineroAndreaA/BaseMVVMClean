@@ -1,5 +1,4 @@
-package com.aam.basemvvmcleanrepo.data.remote
-
+package com.aam.basemvvmcleanrepo.data.remote.network
 sealed class ApiCallResult<out T : Any> {
     data class Success<out T : Any>(val code: ResultStatus, val data: T) : ApiCallResult<T>()
     data class Error(val code: ResultStatus, val errorMessage: String?) : ApiCallResult<Nothing>()
